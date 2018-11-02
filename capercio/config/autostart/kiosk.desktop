@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Kiosk
+Comment=
+Exec=/home/pi/bin/kiosk.sh
+Terminal=false
+Hidden=false

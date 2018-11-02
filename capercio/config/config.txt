@@ -1,0 +1,17 @@
+hdmi_force_hotplug=1
+hdmi_group=2	##grupo VESA como norma de comunicacion del DVI
+hdmi_mode=1
+hdmi_mode=87
+hdmi_drive=1 #quitar el audio del hdmi
+hdmi_cvt=800 480 60 6 0 0 0	#configurar la resolucion de pantalla a 800px X 480px
+max_usb_current=1
+
+dtparam=audio=off
+dtoverlay=pi3-disable-bt
+enable_uart=0
+start_x=1
+gpu_mem=128
+disable_camera_led=1
+
+display.rotate=2
+lcd_rotate=2
